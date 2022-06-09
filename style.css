@@ -1,0 +1,228 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+}
+ 
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: 0.3s;
+    padding: 20px;
+}
+ 
+a:hover {
+    color: rgb(38, 197, 218);
+}
+
+ 
+.logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+ 
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: #c4671b;
+    height: 8vh;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+ 
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+ 
+.nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+}
+.menu {
+    display: none;
+    cursor: pointer;
+}
+ 
+.menu div {
+    width: 32px;
+    height: 2px;
+    background: #fff;
+    margin: 8px;
+    transition: 0.3s;
+}
+
+i {
+   color: #fff;
+}
+header {
+    border-bottom: rgb(255, 255, 255) solid 5px;
+}
+body {
+    background: rgb(49, 108, 131);
+}
+main {
+    color: #fff;
+    font-family: 'Rubik', sans-serif;
+    text-align: center ;
+    margin-top: 50px;
+    font-size: 22px;
+}
+img {
+    height: 800px;
+    width: 1100px;
+    border: #fff solid;
+    margin-top: 60px;
+    border-radius: 10%;
+}
+img:hover {
+    opacity: 0.8;
+    transition: all 0.5s;
+}
+
+.row{
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    background: #c4671b;
+    padding: 70px 0;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    border-top: #fff solid 5px;
+    
+}
+.footer-col{
+width: 25%;
+padding: 0 15px;
+}
+
+.footer-col h4{
+    font-size: 22px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-weight: 1000;
+    position: relative;
+}
+
+.footer-col h4::before{
+    content: '';
+    position: absolute;
+    left:0;
+    bottom: -10px;
+    background-color: rgb(49, 108, 131);
+    height: 2px;
+    box-sizing: border-box;
+    width: 100px;
+}
+
+.footer-col ul li:not(:last-child) {
+    margin-bottom: 10px;
+}
+
+.footer-col ul li a{
+    font-size: 18px;
+    text-transform: capitalize;
+    color: #fff;
+    text-decoration: none;
+    font-weight: 300;
+    color: rgb(218, 218, 218);
+    display: block;
+    transition: all 0.3s ease;
+}
+
+.footer-col ul li a:hover{
+    color: #fff;
+    padding-left: 6px;
+
+}
+
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color: rgb(49, 108, 131);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color: #fff;
+    transition: all 0.5s ease;
+    margin-top: 50px;
+}
+
+.footer-col .social-links a:hover{
+    color: rgb(0, 0, 0);
+    
+}
+
+@media(max-width: 767px){
+    .footer-col {
+        width: 50%;
+        margin-bottom: 30px;
+    }
+}
+
+@media(max-width: 574px){
+    .footer-col {
+        width: 100%;
+    }
+}
+
+#ig {
+    font-size: 40px;
+}
+
+#ig:hover {
+    opacity: 0.7;
+}
+
+#face {
+    font-size: 40px;
+}
+
+#face:hover {
+    opacity: 0.7;
+}
+
+#twi {
+    font-size: 40px;
+}
+
+#twi:hover {
+    opacity: 0.7;
+}
+
+#you{
+    font-size: 40px;
+}
+
+#you:hover {
+    opacity: 0.7;
+}
+
+.container{
+    max-width: 1170px;
+    margin:auto;
+  
+}
+ul{
+    list-style: none;
+}
+
+.hS{
+    padding-top: 150px;
+    padding-bottom: 150px;
+}
+
+#Sms{
+    padding-bottom: 55px;
+}
+
+#lor{
+    padding-bottom: 55px;
+}
